@@ -2,6 +2,55 @@
   margin: 0;
   padding: 0;
 }
+header {
+  background: #ddd;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  padding: 25px 0;
+}
+
+header:after {
+  background: #fe4e30;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1090px;
+  margin: 0 auto;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  font-size: 24px;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 27px;
+  transition: 0.3s;
+}
+
+header ul li a:nth-child(1) {
+  padding-left: 0;
+}
+
+header ul li a:hover {
+  color: #333;
+}
 .bannar__section,
 .about__area {
   display: flex;

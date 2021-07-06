@@ -132,6 +132,9 @@ div {
 .instagram,
 .likes,
 h2 {
+  top: 20px;
+  position: relative;
+  margin: 0;
   height: 30px;
   color: black;
 }

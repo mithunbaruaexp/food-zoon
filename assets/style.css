@@ -97,6 +97,9 @@ div {
   width: 60%;
   text-align: center;
 }
+.recipies__intro h2 {
+  margin-bottom: 60px;
+}
 .recipies__card {
   display: flex;
   justify-content: center;

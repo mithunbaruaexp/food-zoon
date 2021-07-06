@@ -97,8 +97,9 @@ div {
   width: 60%;
   text-align: center;
 }
-.recipies__intro h2 {
+.info {
   margin-bottom: 60px;
+  color: #575757;
 }
 .recipies__card {
   display: flex;
